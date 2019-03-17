@@ -4,5 +4,15 @@
   "description": "simple blockchain using typescript",
   "main": "index.js",
   "author": "runningwater",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.1.2"
+  }
 }
