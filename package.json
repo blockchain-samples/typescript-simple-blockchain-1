@@ -1,0 +1,8 @@
+{
+  "name": "typescript-simple-blockchain",
+  "version": "1.0.0",
+  "description": "simple blockchain using typescript",
+  "main": "index.js",
+  "author": "runningwater",
+  "license": "MIT"
+}
